@@ -4,7 +4,7 @@ services:
         image: mysql:8.0
         command: --default-authentication-plugin=mysql_native_password
         volumes:
-          - ../db_data:/var/lib/mysql
+          - ./db_data:/var/lib/mysql
         ports:
             - "3306:3306"
         restart: always
@@ -16,7 +16,7 @@ services:
       ports:
         - 8080:8080
       volumes:
-        - ../webapps:/usr/local/tomcat/webapps
+        - ./webapps:/usr/local/tomcat/webapps
 volumes:
     db_data:
     webapps:
