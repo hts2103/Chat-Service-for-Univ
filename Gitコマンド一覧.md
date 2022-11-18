@@ -50,8 +50,6 @@
 
 ## 参考サイト
 
-<https://tech-blog.rakus.co.jp/entry/20200529/git#2-5-%E3%82%B3%E3%83%BC%E3%83%89%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC%E3%83%9E%E3%83%BC%E3%82%B8>
-https://tech-blog.rakus.co.jp/entry/20200529/git#2-5-%E3%82%B3%E3%83%BC%E3%83%89%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC%E3%83%9E%E3%83%BC%E3%82%B8
+[1]. [【超入門】初心者のためのGitとGitHubの使い方](https://tech-blog.rakus.co.jp/entry/20200529/git#2-5-%E3%82%B3%E3%83%BC%E3%83%89%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC%E3%83%9E%E3%83%BC%E3%82%B8)
 
-<https://codelikes.com/git-commit-push/?amp=1>
-https://codelikes.com/git-commit-push/?amp=1 
+[2]. [【Git入門】commitした後にgit pushしてみよう【わかりやすく解説】](https://codelikes.com/git-commit-push/?amp=1)
