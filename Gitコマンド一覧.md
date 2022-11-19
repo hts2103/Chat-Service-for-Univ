@@ -7,6 +7,7 @@
 - `git --version`　Gitのバージョン確認
 - `git config --global user.name 任意のユーザ名`　ユーザ名を設定
 - `git config --global user.email 任意のメールアドレス`　メールアドレスを設定
+- `git config --list`　ユーザ名とメールアドレスを確認
 
 ## 2. ローカルリポジトリの作成
 
