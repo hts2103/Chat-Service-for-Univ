@@ -11,26 +11,26 @@ body{
 }
 
 /*ロゴのデザイン*/
-img{
+.logo{
     position: absolute;
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 190px;
-    height: 190px;
+    width: 10%;
+    height: auto;
     border-radius: 50%;
     box-shadow: 8px 8px 13px -6px #1d92ff;
 }
 
 /*フォーム全体のデザイン*/
 form{
-    width: 470px;
-    padding: 20px 20px;
+    width: 25%;
+    padding: 1% 1%;
     position: absolute;
     top: 57%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(224, 250, 255);
+    background-color: rgb(255, 255, 255);
     text-align: center;
     box-shadow: 8px 8px 13px -6px #1d92ff;
     border-radius: 5%;
@@ -57,16 +57,16 @@ form input[type = "school_id"], form input[type = "password"]{
     display: block;
     margin: 0px auto;
     border: 1px solid #2995fa;
-    padding: 8px 8px;
-    width: 170px;
+    padding: 2% 2%;
+    width: 35%;
     border-radius: 5px;
 }
 
 /*入力フォームをクリックしたときの動作*/
 form input[type = "school_id"]:focus, form input[type = "password"]:focus{
-    width: 175px;
+    width: 35.3%;
     background-color: white;
-    box-shadow: 0 0 8px hsl(199, 98%, 62%);
+    box-shadow: 0 0 7px hsl(199, 98%, 62%);
     outline: solid 1.5px #2995fa;
 }
 
@@ -81,10 +81,10 @@ form input[type = "submit"]{
     border: 0;
     background: #60cdff;
     display: block;
-    margin: 20px auto;
+    margin: 5% auto;
     border: 2px solid #60cdff;
-    padding: 10px 10px;
-    width: 130px;
+    padding: 2% 2%;
+    width: 30%;
     outline: none;
     color: white;
     border-radius: 30px;
