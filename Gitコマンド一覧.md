@@ -28,8 +28,9 @@
 
 ## 4. ローカルリポジトリでCommitする
 
-- `git commit -m "メッセージ"`　ステージングエリアのファイルをコメント付きでコミットする
+- `git commit -m "メッセージ"`　ステージングエリアのファイルをメッセージ付きでコミットする
 - `git commit -a -m "メッセージ"`　新規ファイルを除く、変更されたファイルを全てステージし、メッセージ付でコミットする
+- `git commit -F- << EOM`　複数行メッセージを追加し、コミットする　GitBashからのみ実行可能
 - `git reset --hard ORIG_HEAD`　直前のコミット後の状態に戻す
 - `git reset --hard コミットID`　ワークツリーを含めた全てをコミットIDのコミット後の状態に戻す
 - `git log`　最近のコミットを上から順番に表示
@@ -73,4 +74,4 @@
 
 [2]. [【Git入門】commitした後にgit pushしてみよう【わかりやすく解説】](https://codelikes.com/git-commit-push/?amp=1)
 
-[3]. []()
+[3]. [基本的なGitコマンドまとめ](https://qiita.com/2m1tsu3/items/6d49374230afab251337)
