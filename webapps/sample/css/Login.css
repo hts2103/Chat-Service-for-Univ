@@ -1,0 +1,210 @@
+/*親要素　ページ全体のデフォルト設定*/
+html{
+    min-height: 100%;/*グラデーションの繰り返し防止*/
+}
+
+/*背景のデザイン*/
+body{
+    background: -moz-linear-gradient(top,#59d8ff, #ccf2fd);
+    background: -webkit-linear-gradient(top, #59d8ff, #ccf2fd);
+    background: linear-gradient(to bottom, #59d8ff, #ccf2fd); 
+}
+
+/*ロゴのデザイン*/
+img{
+    position: absolute;
+    top: 205px; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 205px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 8px 8px 13px -6px #1d92ff;
+}
+
+/*フォーム全体のデザイン*/
+form{
+    width: 450px;
+    padding: 20px 25px 25px;
+    position: absolute;
+    top: 560px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: 8px 8px 13px -6px #1d92ff;
+    border-radius: 20px;
+}
+
+/*フォーム内タイトルのデザイン*/
+form h1{
+    color: #60cdff;
+    font-weight: bold;
+    font-size: 38px;
+    margin: 0;
+}
+
+/*フォーム内説明文のデザイン*/
+form p{
+    color: rgb(134, 132, 132);
+    font-weight: 500;
+    font-size: 19px;
+    margin: 10px 0 15px;
+}
+
+/*入力フォームのデザイン*/
+form input[type = "id"], form input[type = "password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 17px auto 10px;
+    border: 1px solid #2995fa;
+    padding: 5px;
+    width: 160px;
+    border-radius: 6px;
+}
+
+/*入力フォーム内のデフォルト文字のデザイン*/
+form input[placeholder = "学籍番号"], form input[placeholder = "パスワード"]{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/*入力フォームをクリックしたときの動作*/
+form input[type = "id"]:focus, form input[type = "password"]:focus{
+    width: 162px;
+    background-color: white;
+    box-shadow: 0 0 7px hsl(199, 98%, 62%);
+    outline: solid 1.5px #2995fa;
+}
+
+/*ログインボタンのデザイン*/
+form input[type = "submit"]{
+    width: 135px;
+    border: 0;
+    border: 2px solid #a4e2ff;
+    border-radius: 32px;
+    background: #a4e2ff;
+    display: block;
+    margin: 25px auto 0;
+    padding: 7px 0;
+    outline: none;
+    transition: 0.25s;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+/*ログインボタンにカーソルを乗せたときの動作*/
+form input[type = "submit"]:hover{
+    background-color: #2995fa;
+    border: 2px solid #2995fa;
+    box-shadow: 0 0 10px hsl(199, 98%, 62%);
+}
+
+/*新規会員登録ボタンのデザイン*/
+form input[type = "button"]{
+    background-color: white;
+    border: 2px solid #60cdff;
+    border-radius: 30px;
+    display: block;
+    margin: 20px auto 0;
+    padding: 2px 0;
+    width: 134px;
+    outline: none;
+    transition: 0.25s;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    color: #60cdff;
+}
+
+form input[type = "button"]:hover{
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    color: white;
+    box-shadow: 0 0 4px rgb(0, 0, 0);
+}
+
+/*スマホ版*/
+@media screen and (max-width: 480px){
+    /*ロゴのデザイン*/
+    img{
+        top: 150px;
+        width: 35%;
+        }
+
+    /*フォーム全体*/
+    form{
+        width: 65%;
+        padding: 10px 17px 15px;
+        top: 410px;
+        border-radius: 20px;
+    }
+
+    /*フォーム内タイトルのデザイン*/
+    form h1{
+        font-size: 25px;
+    }
+
+    /*フォーム内説明文のデザイン*/
+    form p{
+        font-size: 15px;
+        margin: 2px 0 0;
+    }
+
+    /*入力フォームのデザイン*/
+    form input[type = "id"], form input[type = "password"]{
+        margin: 10px auto;
+        padding: 4px;
+        width: 50%;
+        border-radius: 4px;
+    }
+
+    /*入力フォーム内のデフォルト文字のデザイン*/
+    form input[placeholder = "学籍番号"], form input[placeholder = "パスワード"]{
+        font-size: 15px;
+    }
+
+    /*入力フォームを押したときの動作*/
+    form input[type = "id"]:focus, form input[type = "password"]:focus{
+        width: 50.5%;
+        box-shadow: 0 0 6px hsl(199, 98%, 62%);
+    }
+
+    /*ログインボタンのデザイン*/
+    form input[type = "submit"]{
+        margin: 17px auto 0; /*ボタンの中央配置*/
+        padding: 4px;
+        width: 40%;
+        border-radius: 35px;
+        font-size: 17px;
+    }
+    
+    /*ログインボタンを押したときの動作*/
+    form input[type = "submit"]:hover{
+        box-shadow: 0 0 6px hsl(199, 98%, 62%);
+    }
+
+    /*新規会員登録ボタンのデザイン*/
+    form input[type = "button"]{
+        border-radius: 25px;
+        margin: 13px auto 0;
+        padding: 1px 0;
+        width: 39%;
+        font-size: 13px;
+    }
+}
+
+/*
+・html中のタグ名{#デザインを書く}
+・コメントアウトは/*を使う
+・form h1→formタグの中のh1タグ
+・form, h1→formタグとh1タグの両方
+・長さや大きさは%とpx、em、remが指定できる
+・.クラス名{#デザインを書く}
+・ブレイクポイントでは変えるところのみ記述する
+*/
