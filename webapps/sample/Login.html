@@ -11,7 +11,7 @@
     </head>
 
     <body>
-        <img class = "logo" src = "images/logo.png" alt = "logo_img">
+        <img src = "images/logo.png" alt = "サービスロゴ">
 
         <form name = "login_form" method = "POST">
             <div class = "login_form_top">
@@ -20,10 +20,10 @@
             </div>
 
             <div class = "login_form_btn">
-                <input type = "id" name = "school_id" placeholder = "学籍番号">
-                <input type = "password" name = "password" placeholder = パスワード>
+                <input type = "id" name = "school_id" placeholder = "学籍番号" pattern = "^([0-9A-Za-z]{5})$">
+                <input type = "password" name = "password" placeholder = "パスワード" pattern = "^[a-zA-Z0-9!-/:-@¥[-`{-~]{5,10}$">
                 <input type = "submit" name = "login" value = "ログイン">
-                <input type = "button" name = "signUp" value = "新規会員登録">
+                <input type = "button" name = "signUp" value = "新規登録" onclick = "location.href='./SignUp.html'">
             </div>
         </form>
     </body>
