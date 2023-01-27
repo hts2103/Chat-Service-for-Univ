@@ -104,10 +104,10 @@ form input[type = "submit"]:hover{
     box-shadow: 0 0 10px hsl(199, 98%, 62%);
 }
 
-/*新規会員登録ボタンのデザイン*/
+/*新規登録ボタンのデザイン*/
 form input[type = "button"]{
     background-color: white;
-    border: 2px solid #60cdff;
+    border: 2px solid #52c8ff;
     border-radius: 30px;
     display: block;
     margin: 20px auto 0;
@@ -118,15 +118,16 @@ form input[type = "button"]{
     text-align: center;
     cursor: pointer;
     font-weight: bold;
-    font-size: 16px;
-    color: #60cdff;
+    font-size: 17px;
+    color: #52c8ff;
 }
 
+/*新規登録ボタン押したとき*/
 form input[type = "button"]:hover{
-    background-color: rgb(0, 0, 0);
-    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(30, 255, 60);
+    border: 2px solid rgb(30, 255, 60);
     color: white;
-    box-shadow: 0 0 4px rgb(0, 0, 0);
+    box-shadow: 0 0 4px rgb(30, 255, 60);
 }
 
 /*スマホ版*/
@@ -189,7 +190,7 @@ form input[type = "button"]:hover{
         box-shadow: 0 0 6px hsl(199, 98%, 62%);
     }
 
-    /*新規会員登録ボタンのデザイン*/
+    /*新規登録ボタンのデザイン*/
     form input[type = "button"]{
         border-radius: 25px;
         margin: 13px auto 0;
