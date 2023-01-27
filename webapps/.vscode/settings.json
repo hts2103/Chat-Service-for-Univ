@@ -1,0 +1,5 @@
+{
+    "java.project.referencedLibraries": [
+        "/usr/local/tomcat/lib/servlet-api.jar"
+    ]
+}
